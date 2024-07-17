@@ -1,21 +1,8 @@
 /* https://github.com/kaifamiao/anything-llm-chinese */
 body{
-  background-color: whitesmoke; /* 添加灰色背景 */
+  background-color: #b99ae4; /* 添加灰色背景 */
 }
-.w-auto.h-auto{
-  background-color: whitesmoke; /* 添加灰色背景 */
-}
-.w-auto.h-auto {
 
-  height: 100%;
-  font-size: 36px;
-  background-color: whitesmoke; /* 添加灰色背景 */
-  border: 0px solid #2a69a7; /* 2像素宽的黑色实线边框 */
-}
-.w-screen.h-screen.overflow-hidden.bg-sidebar.flex{
-  background-color: whitesmoke; /* 添加灰色背景 */
-  border: 0px solid #2a69a7; /* 2像素宽的黑色实线边框 */
-}
 .base-style, .kfm-header, .kfm-footer, .kfm-logo {
   padding: 10px;
   margin: 10px;
@@ -32,4 +19,90 @@ body{
 
 .kfm-footer {
   /* 特定于 footer 的样式 */
+}
+
+/*整体页面背景 外*/
+.w-auto.h-auto {
+  width: 100%;
+  background-color: red; /* 添加灰色背景 */
+  /*border: 1px solid red; !* 2像素宽的黑色实线边框 *!*/
+}
+/*整体页面背景*/
+.w-screen.h-screen.overflow-hidden.bg-sidebar.flex{
+  width: 100%;
+  background-color: white; /* 添加灰色背景 */
+}
+[class="flex flex-col h-full overflow-x-hidden"]{
+  background-color: #bb99e6; /* 添加灰色背景 */
+}
+[class="w-screen h-screen overflow-hidden bg-sidebar flex"]{
+}
+[class="relative m-[16px] rounded-[16px] bg-sidebar border-2 border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"]{
+  background-color: green; /* 添加灰色背景 */
+}
+
+[class="relative h-[calc(100%-60px)] flex flex-col w-full justify-between pt-[10px] overflow-y-scroll no-scroll"]{
+  background-color: white; /* 添加灰色背景 */
+  p{
+    color: black;
+  }
+}
+
+[class="flex-grow flex flex-col min-w-[235px]"]{
+  background-color: blue; /* 添加灰色背景 */
+}
+[class="flex flex-col gap-y-2"]{
+  background-color: #bb99e6; /* 添加灰色背景 */
+}
+[class="flex flex-col gap-y-2"]{
+  background-color: white; /* 添加灰色背景 */
+  /*链接颜色*/
+  a {
+    color: blue;
+    text-decoration: none;
+    font-weight: currentColor;
+  }
+  /*所有文字颜色*/
+   p {
+    color: currentColor;
+  }
+}
+
+/* content */
+[class="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"]
+{
+  color: rebeccapurple;
+  a,div,p{
+  color: rebeccapurple;
+  }
+  background-color: cornflowerblue; /* 添加灰色背景 */
+}
+[class="flex flex-col h-full w-full md:mt-0 mt-[40px]"]{
+  background-color: white;
+  color: blue;
+  a,div,p{
+    color: blue;
+  }
+}
+[class="flex gap-x-5 ml-14"]{
+  background-color: white;
+  a,div,p,span{
+    color: black;
+  }
+}
+[class="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"]{
+  background-color: white;
+  a,div,p,span{
+    color: blue;
+  }
+}
+[class="markdown text-white/80 font-light normal h-full md:h-[83%] pb-[100px] pt-6 md:pt-0 md:pb-20 md:mx-0 overflow-y-scroll flex flex-col justify-start no-scroll"]{
+  background-color: white;
+}
+[class="py-8 px-4 w-full flex gap-x-5 md:max-w-[80%] flex-col"]{
+  background-color: white;
+  color: black;
+  a,div,p,span{
+    color: blue;
+  }
 }

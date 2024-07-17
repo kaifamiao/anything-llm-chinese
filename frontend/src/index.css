@@ -769,3 +769,24 @@ does not extend the close button beyond the viewport. */
   }
 }
 
+
+
+
+[class="relative m-[16px] rounded-[16px] bg-sidebar border-2 border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"]{
+  background-color: white;
+}
+
+
+[class=" flex justify-center items-end w-full group bg-historical-msg-user"]{
+  background-color: white;
+  div,a,p{
+    color: black;
+  };
+}
+[class="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"]
+{
+  background-color: white;
+}
+div,p,span{
+  background-color: white;
+}
