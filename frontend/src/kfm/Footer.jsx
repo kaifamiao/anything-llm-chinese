@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 
-export default function Foot() {
+export default function Footer() {
   return (
-    <div className="w-auto h-auto">
+    <div className="kfm-footer">
       <h1>Anything LLM 中文版 Foot</h1>
     </div>
   );

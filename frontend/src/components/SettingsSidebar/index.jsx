@@ -56,7 +56,7 @@ export default function SettingsSidebar() {
           <div className="flex items-center justify-center flex-grow">
             <img
               src={logo}
-              alt="Logo"
+              alt="KfmLogo"
               className="block mx-auto h-6 w-auto"
               style={{ maxHeight: "40px", objectFit: "contain" }}
             />
@@ -87,7 +87,7 @@ export default function SettingsSidebar() {
                 <div className="flex shrink-1 w-fit items-center justify-start">
                   <img
                     src={logo}
-                    alt="Logo"
+                    alt="KfmLogo"
                     className="rounded w-full max-h-[40px]"
                     style={{ objectFit: "contain" }}
                   />
@@ -139,7 +139,7 @@ export default function SettingsSidebar() {
       >
         <img
           src={logo}
-          alt="Logo"
+          alt="KfmLogo"
           className="rounded max-h-[24px]"
           style={{ objectFit: "contain" }}
         />

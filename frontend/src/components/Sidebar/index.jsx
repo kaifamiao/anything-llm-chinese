@@ -12,6 +12,7 @@ import SettingsButton from "../SettingsButton";
 import { Link } from "react-router-dom";
 import paths from "@/utils/paths";
 import { useTranslation } from "react-i18next";
+import KfmLogo from "@/kfm/KfmLogo.jsx";
 
 export default function Sidebar() {
   const { user } = useUser();
@@ -26,17 +27,18 @@ export default function Sidebar() {
 
   return (
     <div>
-      <Link
-        to={paths.home()}
-        className="flex shrink-0 max-w-[55%] items-center justify-start mx-[38px] my-[18px]"
-        aria-label="Home"
-      >
-        <img
-          src={logo}
-          alt="Logo"
-          className="rounded max-h-[24px] object-contain"
-        />
-      </Link>
+      <KfmLogo/>
+      {/*<Link*/}
+      {/*  to={paths.home()}*/}
+      {/*  className="flex shrink-0 max-w-[55%] items-center justify-start mx-[38px] my-[18px]"*/}
+      {/*  aria-label="Home"*/}
+      {/*>*/}
+      {/*  <img*/}
+      {/*    src={logo}*/}
+      {/*    alt="KfmLogo"*/}
+      {/*    className="rounded max-h-[24px] object-contain"*/}
+      {/*  />*/}
+      {/*</Link>*/}
       <div
         ref={sidebarRef}
         className="relative m-[16px] rounded-[16px] bg-sidebar border-2 border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"
@@ -115,7 +117,7 @@ export function SidebarMobileHeader() {
         <div className="flex items-center justify-center flex-grow">
           <img
             src={logo}
-            alt="Logo"
+            alt="KfmLogo"
             className="block mx-auto h-6 w-auto"
             style={{ maxHeight: "40px", objectFit: "contain" }}
           />
@@ -146,7 +148,7 @@ export function SidebarMobileHeader() {
               <div className="flex shrink-1 w-fit items-center justify-start">
                 <img
                   src={logo}
-                  alt="Logo"
+                  alt="KfmLogo"
                   className="rounded w-full max-h-[40px]"
                   style={{ objectFit: "contain" }}
                 />

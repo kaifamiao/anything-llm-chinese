@@ -530,7 +530,7 @@ function systemEndpoints(app) {
       const currentLogoFilename = await SystemSettings.currentLogoFilename();
       response.writeHead(200, {
         "Access-Control-Expose-Headers":
-          "Content-Disposition,X-Is-Custom-Logo,Content-Type,Content-Length",
+          "Content-Disposition,X-Is-Custom-KfmLogo,Content-Type,Content-Length",
         "Content-Type": mime || "image/png",
         "Content-Disposition": `attachment; filename=${path.basename(
           logoPath
@@ -731,7 +731,7 @@ function systemEndpoints(app) {
 
         return response.status(success ? 200 : 500).json({
           message: success
-            ? "Logo uploaded successfully."
+            ? "KfmLogo uploaded successfully."
             : error || "Failed to update with new logo.",
         });
       } catch (error) {
@@ -765,7 +765,7 @@ function systemEndpoints(app) {
 
         return response.status(success ? 200 : 500).json({
           message: success
-            ? "Logo removed successfully."
+            ? "KfmLogo removed successfully."
             : error || "Failed to update with new logo.",
         });
       } catch (error) {

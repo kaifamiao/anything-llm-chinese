@@ -1,0 +1,35 @@
+/* https://github.com/kaifamiao/anything-llm-chinese */
+body{
+  background-color: whitesmoke; /* 添加灰色背景 */
+}
+.w-auto.h-auto{
+  background-color: whitesmoke; /* 添加灰色背景 */
+}
+.w-auto.h-auto {
+
+  height: 100%;
+  font-size: 36px;
+  background-color: whitesmoke; /* 添加灰色背景 */
+  border: 0px solid #2a69a7; /* 2像素宽的黑色实线边框 */
+}
+.w-screen.h-screen.overflow-hidden.bg-sidebar.flex{
+  background-color: whitesmoke; /* 添加灰色背景 */
+  border: 0px solid #2a69a7; /* 2像素宽的黑色实线边框 */
+}
+.base-style, .kfm-header, .kfm-footer, .kfm-logo {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  border: 1px solid #2a69a7;
+}
+
+/* 如果 kfm-header 或 kfm-footer 需要额外的样式，可以在这里添加 */
+.kfm-header {
+  /* 特定于 header 的样式 */
+}
+
+.kfm-footer {
+  /* 特定于 footer 的样式 */
+}

@@ -36,7 +36,7 @@ export default function PasswordModal({ mode = "single" }) {
       <div className="flex flex-col items-center justify-center h-full w-full md:w-1/2 z-50 relative -mt-20">
         <img
           src={loginLogo}
-          alt="Logo"
+          alt="KfmLogo"
           className={`hidden relative md:flex rounded-2xl w-fit m-4 z-30 ${
             mode === "single" ? "md:top-2" : "md:top-12"
           } absolute max-h-[65px] md:bg-login-gradient md:shadow-[0_4px_14px_rgba(0,0,0,0.25)]`}

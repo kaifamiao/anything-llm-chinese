@@ -53,7 +53,7 @@ export default function ChatWindowHeader({
         <img
           style={{ maxWidth: 48, maxHeight: 48 }}
           src={iconUrl ?? AnythingLLMIcon}
-          alt={iconUrl ? "Brand" : "AnythingLLM Logo"}
+          alt={iconUrl ? "Brand" : "AnythingLLM KfmLogo"}
         />
       </div>
       <div className="allm-absolute allm-right-0 allm-flex allm-gap-x-1 allm-items-center allm-px-[22px]">

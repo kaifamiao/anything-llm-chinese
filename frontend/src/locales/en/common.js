@@ -306,7 +306,7 @@ const TRANSLATIONS = {
     title: "Appearance",
     description: "Customize the appearance settings of your platform.",
     logo: {
-      title: "Customize Logo",
+      title: "Customize KfmLogo",
       description: "Upload your custom logo to make your chatbot yours.",
       add: "Add a custom logo",
       recommended: "Recommended size: 800 x 200",

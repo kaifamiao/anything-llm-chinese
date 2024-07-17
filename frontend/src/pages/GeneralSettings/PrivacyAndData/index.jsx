@@ -77,7 +77,7 @@ function ThirdParty({ settings }) {
           <div className="flex items-center gap-2.5">
             <img
               src={LLM_SELECTION_PRIVACY[llmChoice].logo}
-              alt="LLM Logo"
+              alt="LLM KfmLogo"
               className="w-8 h-8 rounded"
             />
             <p className="text-white text-sm font-bold">
@@ -97,7 +97,7 @@ function ThirdParty({ settings }) {
           <div className="flex items-center gap-2.5">
             <img
               src={EMBEDDING_ENGINE_PRIVACY[embeddingEngine].logo}
-              alt="LLM Logo"
+              alt="LLM KfmLogo"
               className="w-8 h-8 rounded"
             />
             <p className="text-white text-sm font-bold">
@@ -120,7 +120,7 @@ function ThirdParty({ settings }) {
           <div className="flex items-center gap-2.5">
             <img
               src={VECTOR_DB_PRIVACY[vectorDb].logo}
-              alt="LLM Logo"
+              alt="LLM KfmLogo"
               className="w-8 h-8 rounded"
             />
             <p className="text-white text-sm font-bold">

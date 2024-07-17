@@ -4,21 +4,20 @@ import { BrowserRouter as Router } from "react-router-dom";
 import App from "@/App.jsx";
 import "@/index.css";
 import Kfm from "@/kfm/Kfm.jsx";
-import Head from "@/kfm/Head.jsx";
-import Foot from "@/kfm/Foot.jsx";
+import Header from "@/kfm/Header.jsx";
+import Footer from "@/kfm/Footer.jsx";
 const isDev = process.env.NODE_ENV !== "production";
 const REACTWRAP = isDev ? React.Fragment : React.StrictMode;
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <div>
-
-    <Head />
+    <Header />
     <REACTWRAP>
       <Router>
         <App />
       </Router>
     </REACTWRAP>
-    <Foot />
+    <Footer />
     <Kfm></Kfm>
   </div>
 );

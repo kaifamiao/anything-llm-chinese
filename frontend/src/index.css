@@ -1,3 +1,5 @@
+@import "kfm.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -766,21 +768,4 @@ does not extend the close button beyond the viewport. */
     display: none;
   }
 }
-/* https://github.com/kaifamiao/anything-llm-chinese */
-body{
-  background-color: whitesmoke; /* 添加灰色背景 */
-}
-.w-auto.h-auto{
-  background-color: whitesmoke; /* 添加灰色背景 */
-}
-.w-auto.h-auto {
 
-  height: 100%;
-  font-size: 36px;
-  background-color: whitesmoke; /* 添加灰色背景 */
-  border: 0px solid #2a69a7; /* 2像素宽的黑色实线边框 */
-}
-.w-screen.h-screen.overflow-hidden.bg-sidebar.flex{
-  background-color: whitesmoke; /* 添加灰色背景 */
-  border: 0px solid #2a69a7; /* 2像素宽的黑色实线边框 */
-}
