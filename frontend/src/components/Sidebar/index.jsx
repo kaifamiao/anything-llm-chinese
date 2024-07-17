@@ -27,7 +27,7 @@ export default function Sidebar() {
 
   return (
     <div>
-      <KfmLogo/>
+      <KfmLogo />
       {/*<Link*/}
       {/*  to={paths.home()}*/}
       {/*  className="flex shrink-0 max-w-[55%] items-center justify-start mx-[38px] my-[18px]"*/}
@@ -41,7 +41,7 @@ export default function Sidebar() {
       {/*</Link>*/}
       <div
         ref={sidebarRef}
-        className="relative m-[16px] rounded-[16px] bg-sidebar border-2 border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"
+        className="relative m-[16px] rounded-[16px]  border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"
       >
         <div className="flex flex-col h-full overflow-x-hidden">
           <div className="flex-grow flex flex-col min-w-[235px]">

@@ -1,7 +1,7 @@
 /* https://github.com/kaifamiao/anything-llm-chinese */
-body{
-  background-color: #b99ae4; /* 添加灰色背景 */
-}
+/*body{*/
+/*  background-color: #b99ae4; !* 添加灰色背景 *!*/
+/*}*/
 
 .base-style, .kfm-header, .kfm-footer, .kfm-logo {
   padding: 10px;
@@ -20,7 +20,13 @@ body{
 .kfm-footer {
   /* 特定于 footer 的样式 */
 }
-
+.kfm-test{
+  color: #0c312d;
+  background-color: #2a69a7;
+}
+.kfm-test2{
+  background-color: #b99ae4; /* 添加灰色背景 */
+}
 /*整体页面背景 外*/
 .w-auto.h-auto {
   width: 100%;
@@ -58,51 +64,67 @@ body{
   background-color: white; /* 添加灰色背景 */
   /*链接颜色*/
   a {
-    color: blue;
-    text-decoration: none;
-    font-weight: currentColor;
+    color: blueviolet;
+    text-decoration: underline;
   }
   /*所有文字颜色*/
    p {
-    color: currentColor;
+    color: blue;
   }
 }
 
-/* content */
+[class="relative m-[16px] rounded-[16px]  border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"]{
+
+background-color:white;
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
+
+ /*content*/
 [class="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"]
 {
-  color: rebeccapurple;
-  a,div,p{
+  color: yellow;
+  p{
   color: rebeccapurple;
   }
   background-color: cornflowerblue; /* 添加灰色背景 */
 }
 [class="flex flex-col h-full w-full md:mt-0 mt-[40px]"]{
   background-color: white;
-  color: blue;
-  a,div,p{
+
+  p{
     color: blue;
   }
+
 }
-[class="flex gap-x-5 ml-14"]{
+/*[class="flex gap-x-5 ml-14"]{*/
+/*  background-color: white;*/
+/*  a,div,p,span{*/
+/*    color: black;*/
+/*  }*/
+/*}*/
+/*[class="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"]{*/
+
+/*}*/
+/*[class="markdown text-white/80 font-light normal h-full md:h-[83%] pb-[100px] pt-6 md:pt-0 md:pb-20 md:mx-0 overflow-y-scroll flex flex-col justify-start no-scroll"]{*/
+/*  background-color: white;*/
+/*}*/
+/*[class="py-8 px-4 w-full flex gap-x-5 md:max-w-[80%] flex-col"]{*/
+/*  background-color: white;*/
+/*  color: black;*/
+
+/*  a,p{*/
+/*    color: black;*/
+/*  }*/
+/*  div,p{*/
+/*    color: black;*/
+/*  }*/
+/*}*/
+
+
+
+
+/*聊天输入框背景*/
+[class="w-full fixed md:absolute bottom-0 left-0 z-10 md:z-0 flex justify-center items-center"]{
   background-color: white;
-  a,div,p,span{
-    color: black;
-  }
-}
-[class="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"]{
-  background-color: white;
-  a,div,p,span{
-    color: blue;
-  }
-}
-[class="markdown text-white/80 font-light normal h-full md:h-[83%] pb-[100px] pt-6 md:pt-0 md:pb-20 md:mx-0 overflow-y-scroll flex flex-col justify-start no-scroll"]{
-  background-color: white;
-}
-[class="py-8 px-4 w-full flex gap-x-5 md:max-w-[80%] flex-col"]{
-  background-color: white;
-  color: black;
-  a,div,p,span{
-    color: blue;
-  }
 }

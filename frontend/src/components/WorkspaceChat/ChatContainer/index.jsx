@@ -12,6 +12,7 @@ import handleSocketResponse, {
   AGENT_SESSION_END,
   AGENT_SESSION_START,
 } from "@/utils/chat/agent";
+import Test from "@/kfm/Test.jsx";
 
 export default function ChatContainer({ workspace, knownHistory = [] }) {
   const { threadSlug = null } = useParams();

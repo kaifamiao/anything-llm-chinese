@@ -2,6 +2,7 @@ import React from "react";
 import UserIcon from "../UserIcon";
 import { userFromStorage } from "@/utils/request";
 import { AI_BACKGROUND_COLOR, USER_BACKGROUND_COLOR } from "@/utils/constants";
+import { isMobile } from "react-device-detect";
 
 export default function ChatBubble({ message, type, popMsg }) {
   const isUser = type === "user";

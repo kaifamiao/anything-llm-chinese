@@ -67,7 +67,7 @@ export default function DefaultChatContainer() {
         <div
           className={`pb-4 pt-2 px-4 w-full flex gap-x-5 md:max-w-[80%] flex-col`}
         >
-          <div className="flex gap-x-5">
+          <div className="flex gap-x-5" >
             <UserIcon user={{ uid: "system" }} role={"assistant"} />
 
             <span
@@ -216,17 +216,20 @@ export default function DefaultChatContainer() {
     <React.Fragment key="msg8">
       <div
         className={`flex justify-center items-end w-full ${USER_BACKGROUND_COLOR}`}
+
       >
         <div
           className={`py-6 px-4 w-full flex gap-x-5 md:max-w-[80%] flex-col`}
+
         >
-          <div className="flex gap-x-5">
+          <div className="flex gap-x-5" >
             <UserIcon
               user={{ uid: userFromStorage()?.username }}
               role={"user"}
             />
 
             <span
+
               className={`whitespace-pre-line text-white font-normal text-sm md:text-sm flex flex-col gap-y-1 mt-2`}
             >
               {t("welcomeMessage.user3")}
@@ -304,8 +307,12 @@ export default function DefaultChatContainer() {
 
   return (
     <div
-      style={{ height: isMobile ? "100%" : "calc(100% - 32px)" }}
+      style={{
+        height: isMobile ? "100%" : "calc(100% - 32px)",
+        background: "white"
+      }}
       className="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"
+
     >
       {isMobile && <SidebarMobileHeader />}
       {fetchedMessages.length === 0
